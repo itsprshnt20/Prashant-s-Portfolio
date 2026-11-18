@@ -1,0 +1,150 @@
+::1 - - [19/Nov/2026 00:11:34] "GET /index.html HTTP/1.1" 200 -
+::1 - - [19/Nov/2026 00:11:34] "GET /styles.css HTTP/1.1" 200 -
+::1 - - [19/Nov/2026 00:11:34] "GET /script.js HTTP/1.1" 200 -
+----------------------------------------
+Exception occurred during processing of request from ('::ffff:127.0.0.1', 49483, 0, 0)
+::1 - - [19/Nov/2026 00:11:37] "GET / HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "C:\Users\Gabru\AppData\Local\Programs\Python\Python311\Lib\socketserver.py", line 691, in process_request_thread
+    self.finish_request(request, client_address)
+  File "C:\Users\Gabru\AppData\Local\Programs\Python\Python311\Lib\http\server.py", line 1310, in finish_request
+    self.RequestHandlerClass(request, client_address, self,
+  File "C:\Users\Gabru\AppData\Local\Programs\Python\Python311\Lib\http\server.py", line 671, in __init__
+    super().__init__(*args, **kwargs)
+  File "C:\Users\Gabru\AppData\Local\Programs\Python\Python311\Lib\socketserver.py", line 755, in __init__
+    self.handle()
+  File "C:\Users\Gabru\AppData\Local\Programs\Python\Python311\Lib\http\server.py", line 436, in handle
+    self.handle_one_request()
+  File "C:\Users\Gabru\AppData\Local\Programs\Python\Python311\Lib\http\server.py", line 404, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Gabru\AppData\Local\Programs\Python\Python311\Lib\socket.py", line 706, in readinto
+    return self._sock.recv_into(b)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+----------------------------------------
+::1 - - [19/Nov/2026 00:11:38] "GET / HTTP/1.1" 200 -
+::1 - - [19/Nov/2026 00:11:38] "GET /styles.css HTTP/1.1" 200 -
+::1 - - [19/Nov/2026 00:11:38] "GET /script.js HTTP/1.1" 200 -
+::1 - - [19/Nov/2026 00:12:10] "GET / HTTP/1.1" 304 -
+::1 - - [19/Nov/2026 00:12:43] "GET / HTTP/1.1" 304 -
+::1 - - [19/Nov/2026 00:14:55] "GET / HTTP/1.1" 304 -
+::1 - - [19/Nov/2026 00:26:44] "GET /index.html HTTP/1.1" 200 -
+::1 - - [19/Nov/2026 00:26:44] "GET /styles.css HTTP/1.1" 200 -
+::1 - - [19/Nov/2026 00:26:45] "GET /script.js HTTP/1.1" 200 -
+::1 - - [19/Nov/2026 00:28:33] "GET / HTTP/1.1" 200 -
+::1 - - [19/Nov/2026 00:28:33] "GET /styles.css HTTP/1.1" 200 -
+::1 - - [19/Nov/2026 00:28:33] "GET /script.js HTTP/1.1" 200 -
+::1 - - [19/Nov/2026 00:28:50] "GET / HTTP/1.1" 304 -
+::1 - - [19/Nov/2026 00:28:50] "GET /styles.css HTTP/1.1" 304 -
+::1 - - [19/Nov/2026 00:47:05] "GET / HTTP/1.1" 200 -
+::1 - - [19/Nov/2026 00:47:05] "GET /styles.css HTTP/1.1" 200 -
+::1 - - [19/Nov/2026 00:47:06] "GET /styles.css HTTP/1.1" 200 -
+::1 - - [19/Nov/2026 00:47:47] "GET /script.js HTTP/1.1" 200 -
+::1 - - [19/Nov/2026 00:55:28] "GET / HTTP/1.1" 304 -
+::1 - - [19/Nov/2026 00:55:28] "GET /styles.css HTTP/1.1" 200 -
+::1 - - [19/Nov/2026 00:55:28] "GET /script.js HTTP/1.1" 200 -
+::1 - - [19/Nov/2026 00:56:04] "GET / HTTP/1.1" 304 -
+::1 - - [19/Nov/2026 00:56:19] "GET / HTTP/1.1" 200 -
+::1 - - [19/Nov/2026 00:56:19] "GET /styles.css HTTP/1.1" 200 -
+::1 - - [19/Nov/2026 00:56:19] "GET /script.js HTTP/1.1" 200 -
+::1 - - [19/Nov/2026 00:56:20] code 404, message File not found
+::1 - - [19/Nov/2026 00:56:20] "GET /favicon.ico HTTP/1.1" 404 -
+::1 - - [19/Nov/2026 01:00:13] "GET / HTTP/1.1" 304 -
+::1 - - [19/Nov/2026 01:00:13] "GET /styles.css HTTP/1.1" 304 -
+::1 - - [19/Nov/2026 01:00:13] "GET /script.js HTTP/1.1" 304 -
+::1 - - [19/Nov/2026 01:04:32] "GET / HTTP/1.1" 304 -
+::1 - - [19/Nov/2026 01:04:32] "GET /styles.css HTTP/1.1" 304 -
+::1 - - [19/Nov/2026 01:04:32] "GET /script.js HTTP/1.1" 304 -
+::1 - - [19/Nov/2026 01:05:49] "GET / HTTP/1.1" 200 -
+::1 - - [19/Nov/2026 01:05:49] "GET /styles.css HTTP/1.1" 200 -
+::1 - - [19/Nov/2026 01:06:47] "GET /?v=2 HTTP/1.1" 200 -
+::1 - - [19/Nov/2026 01:06:47] "GET /styles.css HTTP/1.1" 200 -
+::1 - - [19/Nov/2026 01:06:47] "GET /script.js HTTP/1.1" 200 -
+::1 - - [19/Nov/2026 01:06:53] "GET /?v=2 HTTP/1.1" 304 -
+::1 - - [19/Nov/2026 01:06:53] "GET /styles.css HTTP/1.1" 304 -
+::1 - - [19/Nov/2026 01:06:53] "GET /script.js HTTP/1.1" 304 -
+::1 - - [19/Nov/2026 01:07:30] "GET /?v=2 HTTP/1.1" 304 -
+::1 - - [19/Nov/2026 01:07:30] "GET /styles.css HTTP/1.1" 304 -
+::1 - - [19/Nov/2026 01:07:30] "GET /script.js HTTP/1.1" 304 -
+::1 - - [19/Nov/2026 01:07:39] "GET /?v=2 HTTP/1.1" 200 -
+::1 - - [19/Nov/2026 01:07:39] "GET /styles.css HTTP/1.1" 200 -
+::1 - - [19/Nov/2026 01:07:39] "GET /script.js HTTP/1.1" 200 -
+::1 - - [19/Nov/2026 01:10:02] "GET /?v=3 HTTP/1.1" 200 -
+::1 - - [19/Nov/2026 01:10:02] "GET /styles.css HTTP/1.1" 200 -
+::1 - - [19/Nov/2026 01:10:02] "GET /script.js HTTP/1.1" 304 -
+::1 - - [19/Nov/2026 01:11:38] "GET /?v=4 HTTP/1.1" 200 -
+::1 - - [19/Nov/2026 01:11:38] "GET /styles.css HTTP/1.1" 200 -
+::1 - - [19/Nov/2026 01:11:38] "GET /script.js HTTP/1.1" 304 -
+::1 - - [19/Nov/2026 01:12:28] "GET /?v=5 HTTP/1.1" 200 -
+::1 - - [19/Nov/2026 01:12:28] "GET /styles.css HTTP/1.1" 200 -
+::1 - - [19/Nov/2026 01:12:28] "GET /script.js HTTP/1.1" 304 -
+::1 - - [19/Nov/2026 01:13:37] "GET /?v=6 HTTP/1.1" 200 -
+::1 - - [19/Nov/2026 01:13:37] "GET /styles.css HTTP/1.1" 200 -
+::1 - - [19/Nov/2026 01:13:37] "GET /script.js HTTP/1.1" 304 -
+::1 - - [19/Nov/2026 01:15:25] "GET /styles.css HTTP/1.1" 200 -
+::1 - - [19/Nov/2026 01:16:05] "GET /?v=7 HTTP/1.1" 200 -
+::1 - - [19/Nov/2026 01:16:05] "GET /styles.css HTTP/1.1" 304 -
+::1 - - [19/Nov/2026 01:16:05] "GET /script.js HTTP/1.1" 304 -
+::1 - - [19/Nov/2026 01:16:29] "GET / HTTP/1.1" 200 -
+::1 - - [19/Nov/2026 01:16:29] "GET /styles.css HTTP/1.1" 200 -
+::1 - - [19/Nov/2026 01:16:29] "GET /script.js HTTP/1.1" 200 -
+::1 - - [19/Nov/2026 01:22:59] "GET /?v=7 HTTP/1.1" 304 -
+::1 - - [19/Nov/2026 01:22:59] "GET /styles.css HTTP/1.1" 304 -
+::1 - - [19/Nov/2026 01:22:59] "GET /script.js HTTP/1.1" 304 -
+::1 - - [19/Nov/2026 01:23:21] "GET /?v=7 HTTP/1.1" 304 -
+::1 - - [19/Nov/2026 01:27:17] "GET / HTTP/1.1" 200 -
+::1 - - [19/Nov/2026 01:27:17] "GET /styles.css HTTP/1.1" 200 -
+::1 - - [19/Nov/2026 01:27:18] "GET /index.html HTTP/1.1" 200 -
+::1 - - [19/Nov/2026 01:27:18] "GET /styles.css HTTP/1.1" 200 -
+::1 - - [19/Nov/2026 01:27:31] "GET /?v=8 HTTP/1.1" 200 -
+::1 - - [19/Nov/2026 01:27:31] "GET /styles.css HTTP/1.1" 200 -
+::1 - - [19/Nov/2026 01:27:31] "GET /script.js HTTP/1.1" 200 -
+::1 - - [19/Nov/2026 01:34:41] "GET /?v=8 HTTP/1.1" 200 -
+::1 - - [19/Nov/2026 01:34:41] "GET /styles.css HTTP/1.1" 200 -
+::1 - - [19/Nov/2026 01:34:41] "GET /script.js HTTP/1.1" 200 -
+::1 - - [19/Nov/2026 01:35:16] "GET /?v=8 HTTP/1.1" 304 -
+::1 - - [19/Nov/2026 01:39:56] "GET /?v=8 HTTP/1.1" 304 -
+::1 - - [19/Nov/2026 01:39:56] "GET /styles.css HTTP/1.1" 200 -
+::1 - - [19/Nov/2026 01:39:56] "GET /script.js HTTP/1.1" 200 -
+::1 - - [19/Nov/2026 01:40:09] "GET /?v=8 HTTP/1.1" 304 -
+::1 - - [19/Nov/2026 01:40:09] "GET /styles.css HTTP/1.1" 200 -
+::1 - - [19/Nov/2026 01:40:09] "GET /script.js HTTP/1.1" 200 -
+::1 - - [19/Nov/2026 01:41:02] "GET / HTTP/1.1" 200 -
+::1 - - [19/Nov/2026 01:41:03] "GET /index.html HTTP/1.1" 200 -
+::1 - - [19/Nov/2026 01:41:03] "GET /styles.css HTTP/1.1" 200 -
+::1 - - [19/Nov/2026 01:41:09] "GET /?v=9 HTTP/1.1" 200 -
+::1 - - [19/Nov/2026 01:41:09] "GET /styles.css HTTP/1.1" 200 -
+::1 - - [19/Nov/2026 01:41:09] "GET /script.js HTTP/1.1" 200 -
+::1 - - [19/Nov/2026 01:44:49] "GET /?v=9 HTTP/1.1" 304 -
+::1 - - [19/Nov/2026 01:44:49] "GET /styles.css HTTP/1.1" 304 -
+::1 - - [19/Nov/2026 01:44:49] "GET /script.js HTTP/1.1" 304 -
+::1 - - [19/Nov/2026 01:45:40] "GET /?v=9 HTTP/1.1" 200 -
+::1 - - [19/Nov/2026 01:45:41] "GET /styles.css HTTP/1.1" 200 -
+::1 - - [19/Nov/2026 01:45:41] "GET /script.js HTTP/1.1" 200 -
+::1 - - [19/Nov/2026 01:45:45] "GET /?v=9 HTTP/1.1" 304 -
+::1 - - [19/Nov/2026 01:46:31] "GET /styles.css HTTP/1.1" 200 -
+::1 - - [19/Nov/2026 01:46:31] "GET / HTTP/1.1" 200 -
+::1 - - [19/Nov/2026 01:46:35] "GET /?v=10 HTTP/1.1" 200 -
+::1 - - [19/Nov/2026 01:46:35] "GET /styles.css HTTP/1.1" 200 -
+::1 - - [19/Nov/2026 01:46:35] "GET /script.js HTTP/1.1" 304 -
+::1 - - [19/Nov/2026 01:46:51] "GET /?v=10 HTTP/1.1" 304 -
+::1 - - [19/Nov/2026 01:46:51] "GET /styles.css HTTP/1.1" 304 -
+::1 - - [19/Nov/2026 01:46:59] "GET /?v=10 HTTP/1.1" 200 -
+::1 - - [19/Nov/2026 01:46:59] "GET /styles.css HTTP/1.1" 200 -
+::1 - - [19/Nov/2026 01:46:59] "GET /script.js HTTP/1.1" 304 -
+::1 - - [19/Nov/2026 01:47:10] "GET /?v=10 HTTP/1.1" 304 -
+::1 - - [19/Nov/2026 01:47:10] "GET /styles.css HTTP/1.1" 304 -
+::1 - - [19/Nov/2026 01:47:16] "GET /?v=10 HTTP/1.1" 304 -
+::1 - - [19/Nov/2026 01:47:16] "GET /styles.css HTTP/1.1" 304 -
+::1 - - [19/Nov/2026 01:47:32] "GET /?v=10 HTTP/1.1" 304 -
+::1 - - [19/Nov/2026 01:47:32] "GET /script.js HTTP/1.1" 304 -
+::1 - - [19/Nov/2026 01:47:32] "GET /styles.css HTTP/1.1" 304 -
+::1 - - [19/Nov/2026 01:50:11] "GET /?v=10 HTTP/1.1" 304 -
+::1 - - [19/Nov/2026 01:50:11] "GET /styles.css HTTP/1.1" 304 -
+::1 - - [19/Nov/2026 01:50:11] "GET /script.js HTTP/1.1" 304 -
+::1 - - [19/Nov/2026 01:50:17] "GET /?v=10 HTTP/1.1" 304 -
+::1 - - [19/Nov/2026 01:50:29] "GET /?v=10 HTTP/1.1" 304 -
+::1 - - [19/Nov/2026 01:50:29] "GET /styles.css HTTP/1.1" 304 -
+::1 - - [19/Nov/2026 01:50:29] "GET /script.js HTTP/1.1" 304 -
+::1 - - [19/Nov/2026 01:50:37] "GET /?v=10 HTTP/1.1" 304 -
